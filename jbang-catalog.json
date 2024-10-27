@@ -1,0 +1,15 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "pcl": {
+      "repositories": ["payara=https://nexus.payara.fish/repository/payara-artifacts"],
+      "script-ref": "fish.payara.cloud:pcl:1.1.0",
+      "description": "pcl is command line utility for managing Payara Cloud namespaces and applications."
+    },
+    "micro": {
+      "script-ref": "fish.payara.extras:payara-micro:6.2024.10",
+      "description": "Payara Micro is an embedded release of Payara built from the Payara Embedded Web release. It allows you to deploy and run WAR files from the command line with a single command, and also features automatic, dynamic clustering with Hazelcast."
+    }
+  },
+  "templates": {}
+}
